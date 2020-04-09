@@ -2,7 +2,8 @@
   <div class="z-20 absolute w-full shadow-xl">
     <div class="flex justify-between bg-white px-6 md:px-10 lg:pl-20 py-4 md:py-6">
       <div class="font-semibold text-xl sm:text-2xl tracking-tight">
-        <a href="#contact">Emobile Utbildning</a>
+        <a href="#contact"
+           class="text-gray-900">Emobile Utbildning</a>
       </div>
 
       <div class="">

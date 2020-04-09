@@ -4,7 +4,7 @@
           style="background-image: url({{ asset('images/student-silhouette-masked-coloured.png') }})">
     </div>
     <div class="absolute sm:hidden w-full h-full bg-contain bg-right-bottom bg-no-repeat"
-          style="background-image: url({{ asset('images/student-silhouette-masked-coloured-cropped.png') }})">
+          style="background-image: url({{ URL::asset('images/student-silhouette-masked-coloured-cropped.png') }})">
     </div>
     <div class="absolute">
       <div class="flex w-full h-screen">
