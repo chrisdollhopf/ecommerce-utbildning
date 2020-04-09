@@ -8,7 +8,7 @@
       rel="stylesheet"
     />
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
     <script
       src="https://kit.fontawesome.com/e74c7778db.js"
       crossorigin="anonymous"

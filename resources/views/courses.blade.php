@@ -1,6 +1,7 @@
 <div id="courses"></div>
   <div class="w-screen h-full ">
-    <div class="m-auto pb-24 md:pb-32" id="backing-texture-1">
+    <div class="m-auto pb-24 md:pb-32"
+         id="backing-texture">
 
       <div class="text-center pt-12 sm:pt-16 pb-8 sm:pb-10 lg:pt-20 lg:pb-16 lg:px-20">
         <p class="text-5xl lg:text-6xl leading-none text-teal-500 pb-3 lg:pb-6">Emobile Kurs Utbud</p>
