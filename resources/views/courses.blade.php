@@ -11,7 +11,7 @@
       <div class="flex flex-wrap justify-center">
 
         <div class="max-w-md lg:flex-none rounded overflow-hidden shadow-xl m-3">
-          <div class="h-56 bg-cover bg-no-repeat" style="background-image: url({{ URL::asset('images/mobile-code-over.jpg') }})">
+          <div class="h-56 bg-cover bg-no-repeat" style="background-image: url({{ asset('images/mobile-code-over.jpg') }})">
         </div>
             <div class="bg-white px-6 py-4">
               <div class="px-6 py-4">
@@ -29,7 +29,7 @@
         </div>
 
         <div class="max-w-md lg:flex-none rounded overflow-hidden shadow-xl m-3">
-          <div class="h-56 bg-cover bg-no-repeat" style="background-image: url({{ URL::asset('images/mobile-pad-over.jpg') }})">
+          <div class="h-56 bg-cover bg-no-repeat" style="background-image: url({{ asset('images/mobile-pad-over.jpg') }})">
           </div>            
             <div class="bg-white px-6 py-4">
               <div class="px-6 py-4">
@@ -47,7 +47,7 @@
         </div>
 
         <div class="max-w-md lg:flex-none rounded overflow-hidden shadow-xl m-3">
-          <div class="h-56 bg-cover bg-no-repeat" style="background-image: url({{ URL::asset('images/mobile-screen-over.jpg') }})">
+          <div class="h-56 bg-cover bg-no-repeat" style="background-image: url({{ asset('images/mobile-screen-over.jpg') }})">
           </div>            
             <div class="bg-white px-6 py-4">
               <div class="px-6 py-4">
