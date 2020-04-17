@@ -2,7 +2,7 @@
   <div class="z-20 absolute w-full shadow-xl">
     <div class="flex justify-between bg-white px-6 md:px-10 lg:pl-20 py-4 md:py-6">
       <div class="font-semibold text-xl sm:text-2xl tracking-tight">
-        <a href="#contact"
+        <a href="#home"
            class="text-gray-900">Emobile Utbildning</a>
       </div>
 
@@ -10,7 +10,7 @@
         <button
           class="flex px-3 md:py-2 border-none sm:border sm:rounded text-gray-900 border-gray-900 hover:text-teal-400 hover:border-teal-400"
           x-on:click.prevent="menu = !menu"
-          @keydown.escape="menu = false"
+          x-on:keydown.escape="menu = false"
         >
           <svg
             class="fill-current h-6 w-6"
@@ -25,8 +25,8 @@
         <ul
           id="menu"
           x-show="menu"
-          @click.away="menu = false"
-          @scroll.window="menu = false"
+          x-on:click.away="menu = false"
+          x-on:scroll.window="menu = false"
           x-transition:enter="transform ease-out duration-100"
           x-transition:enter-start="opacity-0 transform scale-100"
           x-transition:enter-end="opacity-100 transform scale-100"

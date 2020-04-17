@@ -19,8 +19,31 @@
     ></script>
     <script src="{{ asset('js/app.js') }}" defer></script>
     <title>Document</title>
+    <style>
+	
+      .duration-200 {
+        transition-duration: 200ms;
+      }
+      .ease-in {
+        transition-timing-function: cubic-bezier(0.4, 0, 1, 1);      
+      }
+      .ease-out {
+        transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+      }
+      
+      .transition {
+        transition: transform 250ms ease, color 250ms ease;
+      }
+      .transform-180 {
+        transform: rotate(-180deg);
+      }
+      
+      </style>
+
   </head>
+
   <body class="overflow-x-hidden">
+    
 
     <div id='app'>
 
@@ -40,3 +63,13 @@
 
   </body>
   </html>
+  {{-- <script>
+    function modal() {
+      return {
+        show: false,
+        open() { this.show = true },
+        close() { this.show = false },
+        isOpen() { return this.show === true },
+      }
+    }
+  <script> --}}

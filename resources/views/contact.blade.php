@@ -1,3 +1,4 @@
+<div id="contact"></div>
 <div class="h-full bg-teal-400">
 
   <div class="pt-16 pb-12">
