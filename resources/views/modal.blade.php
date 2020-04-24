@@ -1,4 +1,4 @@
-<div class="fixed bg-gray-900 opacity-75 inset-0 z-40">
+{{-- <div class="fixed bg-gray-900 opacity-75 inset-0 z-40">
 </div>
 <div class="fixed flex items-center justify-center inset-0 z-50">
   <div class="bg-white rounded-lg p-4 max-w-xl w-full shadow-xl mx-3">
@@ -15,7 +15,7 @@
     </carousel-component>
   
   </div>
-</div>
+</div> --}}
 
 {{-- Code for button modal --}}
 

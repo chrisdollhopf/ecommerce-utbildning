@@ -1,5 +1,5 @@
 <div x-data="{ menu: false }">
-  <div class="z-20 absolute w-full shadow-xl">
+  <div class="z-10 absolute w-full shadow-xl">
     <div class="flex justify-between bg-white px-6 md:px-10 lg:pl-20 py-4 md:py-6">
       <div class="font-semibold text-xl sm:text-2xl tracking-tight">
         <a href="#home"
