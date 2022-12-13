@@ -28,8 +28,7 @@
                   <span class="bg-gray-200 rounded-full px-4 py-1 text-sm font-semibold text-gray-700 mr-2">Distans</span>
                   <span class="bg-gray-200 rounded-full px-4 py-1 text-sm font-semibold text-gray-700">Heltid</span>
                 </div>
-              <div
-                    class="flex justify-center py-8">
+              <div class="flex justify-center py-8">
                 <button x-on:click="isOpen = true"
                         class="bg-teal-400 rounded-full w-1/2 px-6 py-4 text-sm font-semibold text-gray-900">Course Details</button>
                 <div x-show="isOpen">
@@ -49,7 +48,7 @@
                           'name' => 'Tredje Kursen',
                           'description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.'
                           ]
-                          ]]);
+                          ]])
                 </div>
               </div>
             </div>
